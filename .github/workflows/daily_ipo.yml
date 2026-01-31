@@ -3,7 +3,7 @@ name: Daily IPO Monitoring
 on:
   schedule:
     # 05:00 UTC is 09:00 AM Dubai Time (GST)
-    - cron: '20 5 * * *'
+    - cron: '0 5 * * *'
   workflow_dispatch: # to run it manually for testing
 
 jobs:
